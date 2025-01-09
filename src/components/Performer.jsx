@@ -70,11 +70,12 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 25,
-        goals: 11,
+        matches: 26,
+        goals: 13,
         assists: 6,
       },
       nationalStats: {
+        ret: "Retired from national team",
         matches: 0,
         goals: 0,
         assists: 0,
