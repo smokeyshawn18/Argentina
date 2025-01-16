@@ -38,14 +38,14 @@ const players = [
     image: Messi,
     club: Miami,
     careerStats: {
-      appearances: 1047,
-      goals: 821,
-      assists: 361,
+      appearances: 1083,
+      goals: 850,
+      assists: 379,
     },
     seasonStats: {
-      appearances: 36,
-      goals: 29,
-      assists: 18,
+      appearances: 0,
+      goals: 0,
+      assists: 0,
     },
   },
   {
@@ -62,7 +62,7 @@ const players = [
       assists: 299,
     },
     seasonStats: {
-      appearances: 27,
+      appearances: 28,
       goals: 13,
       assists: 7,
     },
@@ -98,8 +98,8 @@ const players = [
       assists: 57,
     },
     seasonStats: {
-      appearances: 32,
-      goals: 11,
+      appearances: 33,
+      goals: 12,
       assists: 3,
     },
   },
@@ -117,8 +117,8 @@ const players = [
       assists: 50,
     },
     seasonStats: {
-      appearances: 34,
-      goals: 15,
+      appearances: 35,
+      goals: 16,
       assists: 3,
     },
   },
@@ -135,7 +135,7 @@ const players = [
       assists: 34,
     },
     seasonStats: {
-      appearances: 14,
+      appearances: 15,
       goals: 4,
       assists: 2,
     },
@@ -153,7 +153,7 @@ const players = [
       assists: 75,
     },
     seasonStats: {
-      appearances: 32,
+      appearances: 33,
       goals: 3,
       assists: 5,
     },
@@ -172,7 +172,7 @@ const players = [
       assists: 32,
     },
     seasonStats: {
-      appearances: 30,
+      appearances: 34,
       goals: 4,
       assists: 3,
     },
@@ -210,7 +210,7 @@ const players = [
       assists: 28,
     },
     seasonStats: {
-      appearances: 30,
+      appearances: 31,
       goals: 3,
       assists: 9,
     },
@@ -229,7 +229,7 @@ const players = [
       assists: 25,
     },
     seasonStats: {
-      appearances: 19,
+      appearances: 20,
       goals: 1,
       assists: 5,
     },
@@ -265,7 +265,7 @@ const players = [
       assists: 26,
     },
     seasonStats: {
-      appearances: 24,
+      appearances: 25,
       goals: 1,
       assists: 4,
     },
@@ -320,9 +320,9 @@ const players = [
       cleanSheets: 119,
     },
     seasonStats: {
-      appearances: 30,
+      appearances: 31,
       goalsConceded: 39,
-      cleanSheets: 7,
+      cleanSheets: 8,
     },
   },
 

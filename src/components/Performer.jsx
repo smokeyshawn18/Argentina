@@ -5,8 +5,8 @@ import {
   FaChevronUp,
 } from "react-icons/fa";
 import { GoGoal } from "react-icons/go";
-import Messi from "../assets/messi.jpg";
-// import Lautaro from "../assets/lautaro.avif";
+// import Messi from "../assets/messi.jpg";
+import Lautaro from "../assets/lautaro.avif";
 import Alvarez from "../assets/alvareez.jpg";
 import React from "react";
 import PropTypes from "prop-types";
@@ -20,26 +20,26 @@ import Benfica from "../assets/benfica.png";
 import ADM from "../assets/adm.webp";
 
 const players = [
-  {
-    name: "Lionel Messi",
-    position: "Forward",
-    age: 37,
-    shirtNumber: 10,
-    club: Miami,
-    image: Messi,
-    leagues: {
-      MLS: {
-        matches: 25,
-        goals: 23,
-        assists: 13,
-      },
-      nationalStats: {
-        matches: 11,
-        goals: 6,
-        assists: 5,
-      },
-    },
-  },
+  // {
+  //   name: "Lionel Messi",
+  //   position: "Forward",
+  //   age: 37,
+  //   shirtNumber: 10,
+  //   club: Miami,
+  //   image: Messi,
+  //   leagues: {
+  //     MLS: {
+  //       matches: 25,
+  //       goals: 23,
+  //       assists: 13,
+  //     },
+  //     nationalStats: {
+  //       matches: 11,
+  //       goals: 6,
+  //       assists: 5,
+  //     },
+  //   },
+  // },
 
   {
     name: "Julián Álvarez",
@@ -50,8 +50,8 @@ const players = [
     image: Alvarez,
     leagues: {
       LaLiga: {
-        matches: 28,
-        goals: 13,
+        matches: 29,
+        goals: 14,
         assists: 2,
       },
       nationalStats: {
@@ -70,7 +70,7 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 27,
+        matches: 28,
         goals: 13,
         assists: 7,
       },
@@ -82,26 +82,26 @@ const players = [
       },
     },
   },
-  // {
-  //   name: "Lautaro Martinez",
-  //   position: "Forward",
-  //   age: 27,
-  //   club: Inter,
-  //   shirtNumber: 22,
-  //   image: Lautaro,
-  //   leagues: {
-  //     SerieA: {
-  //       matches: 26,
-  //       goals: 8,
-  //       assists: 2,
-  //     },
-  //     nationalStats: {
-  //       matches: 6,
-  //       goals: 3,
-  //       assists: 1,
-  //     },
-  //   },
-  // },
+  {
+    name: "Lautaro Martinez",
+    position: "Forward",
+    age: 27,
+    club: Inter,
+    shirtNumber: 22,
+    image: Lautaro,
+    leagues: {
+      SerieA: {
+        matches: 27,
+        goals: 9,
+        assists: 2,
+      },
+      nationalStats: {
+        matches: 6,
+        goals: 3,
+        assists: 1,
+      },
+    },
+  },
   // {
   //   name: "Alejandro Garnacho",
   //   position: "Forward",
