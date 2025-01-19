@@ -44,4 +44,8 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    outDir: "build", // Output directory for the build files
+    sourcemap: true, // Generate source maps for debugging
+  },
 });
