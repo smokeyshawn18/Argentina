@@ -98,8 +98,8 @@ const players = [
       assists: 57,
     },
     seasonStats: {
-      appearances: 33,
-      goals: 12,
+      appearances: 34,
+      goals: 13,
       assists: 3,
     },
   },
