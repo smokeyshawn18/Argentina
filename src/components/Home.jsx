@@ -186,9 +186,10 @@ const Home = () => {
             </p>
           </div>
         </div>
+         {/* Key Performers Section */}
+         <KeyPerformers />
         <CoachProfile />
-        {/* Key Performers Section */}
-        <KeyPerformers />
+       
         <Kit2024 />
       </div>
     </section>

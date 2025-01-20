@@ -68,24 +68,6 @@ const players = [
     },
   },
   {
-    name: "Paulo Dybala",
-    position: "RW",
-    shirt: 21,
-    club: Roma,
-    age: 30,
-    image: Dybala,
-    careerStats: {
-      appearances: 541,
-      goals: 190,
-      assists: 89,
-    },
-    seasonStats: {
-      appearances: 25,
-      goals: 6,
-      assists: 3,
-    },
-  },
-  {
     name: "Lautaro Martinez",
     position: "ST",
     shirt: 22,
@@ -103,6 +85,25 @@ const players = [
       assists: 3,
     },
   },
+  {
+    name: "Paulo Dybala",
+    position: "RW",
+    shirt: 21,
+    club: Roma,
+    age: 30,
+    image: Dybala,
+    careerStats: {
+      appearances: 541,
+      goals: 190,
+      assists: 89,
+    },
+    seasonStats: {
+      appearances: 25,
+      goals: 6,
+      assists: 3,
+    },
+  },
+
 
   {
     name: "Julián Álvarez",
