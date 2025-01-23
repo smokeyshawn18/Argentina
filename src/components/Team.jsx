@@ -80,8 +80,8 @@ const players = [
       assists: 57,
     },
     seasonStats: {
-      appearances: 34,
-      goals: 13,
+      appearances: 35,
+      goals: 14,
       assists: 3,
     },
   },
@@ -103,7 +103,6 @@ const players = [
       assists: 3,
     },
   },
-
 
   {
     name: "Julián Álvarez",

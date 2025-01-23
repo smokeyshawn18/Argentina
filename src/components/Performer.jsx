@@ -62,6 +62,26 @@ const players = [
     },
   },
   {
+    name: "Lautaro Martinez",
+    position: "Forward",
+    age: 27,
+    club: Inter,
+    shirtNumber: 22,
+    image: Lautaro,
+    leagues: {
+      SerieA: {
+        matches: 29,
+        goals: 11,
+        assists: 2,
+      },
+      nationalStats: {
+        matches: 6,
+        goals: 3,
+        assists: 1,
+      },
+    },
+  },
+  {
     name: "Angel Di Maria",
     position: "Forward",
     age: 36,
@@ -82,26 +102,7 @@ const players = [
       },
     },
   },
-  {
-    name: "Lautaro Martinez",
-    position: "Forward",
-    age: 27,
-    club: Inter,
-    shirtNumber: 22,
-    image: Lautaro,
-    leagues: {
-      SerieA: {
-        matches: 28,
-        goals: 10,
-        assists: 2,
-      },
-      nationalStats: {
-        matches: 6,
-        goals: 3,
-        assists: 1,
-      },
-    },
-  },
+
   // {
   //   name: "Alejandro Garnacho",
   //   position: "Forward",
