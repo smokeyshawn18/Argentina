@@ -13,9 +13,20 @@ import Footer from "./components/Footer.jsx";
 
 import National from "./components/National.jsx";
 
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then((registration) => {
+        console.log("Service Worker registered:", registration);
+      })
+      .catch((error) => {
+        console.error("Service Worker registration failed:", error);
+      });
+  });
+}
+
 function App() {
-
-
   return (
     <>
       <Navbar />
@@ -28,8 +39,6 @@ function App() {
         <Route path="/national" element={<National />} />
       </Routes>
       <Footer />
-
-   
     </>
   );
 }
