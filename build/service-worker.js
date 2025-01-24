@@ -15,7 +15,20 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log("Opened cache");
-      return cache.addAll(urlsToCache);
+      return Promise.all(
+        urlsToCache.map((url) =>
+          fetch(url)
+            .then((response) => {
+              if (!response.ok) {
+                console.error(`Failed to cache ${url}:`, response.statusText);
+              }
+              return cache.put(url, response);
+            })
+            .catch((error) => {
+              console.error(`Failed to fetch ${url}:`, error);
+            })
+        )
+      );
     })
   );
 });
