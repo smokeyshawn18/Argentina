@@ -9,7 +9,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Khushi Edu Pvt. Ltd",
+        name: "Argentina Player & Team Stats",
         short_name: "Khushi",
         start_url: "/",
         display: "standalone",
