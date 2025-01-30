@@ -50,9 +50,9 @@ const players = [
     image: Alvarez,
     leagues: {
       LaLiga: {
-        matches: 31,
+        matches: 32,
         goals: 16,
-        assists: 2,
+        assists: 3,
       },
       nationalStats: {
         matches: 6,
@@ -70,8 +70,8 @@ const players = [
     image: Lautaro,
     leagues: {
       SerieA: {
-        matches: 30,
-        goals: 12,
+        matches: 31,
+        goals: 15,
         assists: 3,
       },
       nationalStats: {
@@ -90,7 +90,7 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 30,
+        matches: 31,
         goals: 14,
         assists: 7,
       },
