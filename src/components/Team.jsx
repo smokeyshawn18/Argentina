@@ -98,8 +98,8 @@ const players = [
       assists: 89,
     },
     seasonStats: {
-      appearances: 32,
-      goals: 7,
+      appearances: 33,
+      goals: 9,
       assists: 3,
     },
   },
@@ -191,7 +191,7 @@ const players = [
       assists: 44,
     },
     seasonStats: {
-      appearances: 27,
+      appearances: 28,
       goals: 1,
       assists: 2,
     },
@@ -312,7 +312,7 @@ const players = [
     position: "GK",
     shirt: 1,
     age: 32,
-    image: Emi, // Replace with actual image
+    image: Emi,
     club: Villa,
     careerStats: {
       appearances: 305,
