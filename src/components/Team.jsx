@@ -80,7 +80,7 @@ const players = [
       assists: 57,
     },
     seasonStats: {
-      appearances: 42,
+      appearances: 43,
       goals: 18,
       assists: 5,
     },
@@ -117,8 +117,8 @@ const players = [
       assists: 50,
     },
     seasonStats: {
-      appearances: 45,
-      goals: 22,
+      appearances: 46,
+      goals: 23,
       assists: 6,
     },
   },
@@ -153,7 +153,7 @@ const players = [
       assists: 75,
     },
     seasonStats: {
-      appearances: 42,
+      appearances: 43,
       goals: 3,
       assists: 7,
     },
@@ -229,7 +229,7 @@ const players = [
       assists: 25,
     },
     seasonStats: {
-      appearances: 26,
+      appearances: 27,
       goals: 1,
       assists: 5,
     },
@@ -265,7 +265,7 @@ const players = [
       assists: 26,
     },
     seasonStats: {
-      appearances: 34,
+      appearances: 35,
       goals: 1,
       assists: 4,
     },
@@ -320,9 +320,9 @@ const players = [
       cleanSheets: 119,
     },
     seasonStats: {
-      appearances: 42,
+      appearances: 43,
       goalsConceded: 57,
-      cleanSheets: 8,
+      cleanSheets: 9,
     },
   },
 
