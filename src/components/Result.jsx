@@ -5,9 +5,31 @@ import Venezuela from "../assets/vene.png";
 import Bolivia from "../assets/bolivia.png";
 import Para from "../assets/para.png";
 import Peru from "../assets/peru.png";
+import Uru from "../assets/uru.png";
 
 const Results = () => {
   const results = [
+    {
+      homeTeam: {
+        name: "Uruguay",
+        logo: Uru,
+      },
+      awayTeam: {
+        name: "Argentina",
+        logo: Argentina,
+      },
+      date: "March 22, 2025",
+      time: "5:15",
+      format: "AM",
+      competitionLogo: Conmebol,
+      competition: "WC - Qualifiers Conmebol",
+      venue: "Estadio Centenario, Uruguay",
+      stadium: "Uruguay",
+      scorers: {
+        awayTeam: [{ player: "Almada", minute: "61'" }],
+        homeTeam: [{ player: "" }],
+      },
+    },
     {
       homeTeam: {
         name: "Argentina",

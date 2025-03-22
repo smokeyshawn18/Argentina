@@ -1,30 +1,30 @@
 import Schedule from "./Schedule";
 import Argentina from "../assets/arg.png";
 import Conmebol from "../assets/conmebol.png";
-import Uru from "../assets/uru.png";
+// import Uru from "../assets/uru.png";
 import Brazil from "../assets/brazil.png";
 import Chile from "../assets/chile.png";
 
 const fixtures = [
-  {
-    homeTeam: {
-      name: "Uruguay",
-      logo: Uru,
-      country: "Bolivia",
-    },
-    awayTeam: {
-      name: "Argentina",
-      logo: Argentina,
-      country: "Argentina",
-    },
-    date: "2025-03-20",
-    time: "02:45",
-    format: "AM",
-    comp: "WC - Qualifiers Conmebol",
-    venue: "Centenario Stadium",
-    stadium: "Uruguay",
-    competetion: Conmebol,
-  },
+  // {
+  //   homeTeam: {
+  //     name: "Uruguay",
+  //     logo: Uru,
+  //     country: "Bolivia",
+  //   },
+  //   awayTeam: {
+  //     name: "Argentina",
+  //     logo: Argentina,
+  //     country: "Argentina",
+  //   },
+  //   date: "2025-03-20",
+  //   time: "02:45",
+  //   format: "AM",
+  //   comp: "WC - Qualifiers Conmebol",
+  //   venue: "Centenario Stadium",
+  //   stadium: "Uruguay",
+  //   competetion: Conmebol,
+  // },
   {
     homeTeam: {
       name: "Argentina",

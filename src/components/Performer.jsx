@@ -55,9 +55,9 @@ const players = [
         assists: 5,
       },
       nationalStats: {
-        matches: 6,
+        matches: 7,
         goals: 2,
-        assists: 1,
+        assists: 2,
       },
     },
   },
