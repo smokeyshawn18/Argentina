@@ -25,25 +25,25 @@ const fixtures = [
   //   stadium: "Uruguay",
   //   competetion: Conmebol,
   // },
-  {
-    homeTeam: {
-      name: "Argentina",
-      logo: Argentina,
-      country: "Argentina",
-    },
-    awayTeam: {
-      name: "Brazil",
-      logo: Brazil,
-      country: "Brazil",
-    },
-    date: "2025-03-23",
-    time: "02:45",
-    format: "AM",
-    comp: "WC - Qualifiers Conmebol",
-    venue: "Estadio Mas Monumental",
-    stadium: "Buenos Aires, Argentina",
-    competetion: Conmebol,
-  },
+  // {
+  //   homeTeam: {
+  //     name: "Argentina",
+  //     logo: Argentina,
+  //     country: "Argentina",
+  //   },
+  //   awayTeam: {
+  //     name: "Brazil",
+  //     logo: Brazil,
+  //     country: "Brazil",
+  //   },
+  //   date: "2025-03-23",
+  //   time: "02:45",
+  //   format: "AM",
+  //   comp: "WC - Qualifiers Conmebol",
+  //   venue: "Estadio Mas Monumental",
+  //   stadium: "Buenos Aires, Argentina",
+  //   competetion: Conmebol,
+  // },
   {
     homeTeam: {
       name: "Chile",
