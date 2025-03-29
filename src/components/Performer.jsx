@@ -90,8 +90,8 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 33,
-        goals: 14,
+        matches: 34,
+        goals: 15,
         assists: 7,
       },
       nationalStats: {
