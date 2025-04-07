@@ -29,8 +29,8 @@ const players = [
   //   image: Messi,
   //   leagues: {
   //     MLS: {
-  //       matches: 7,
-  //       goals: 5,
+  //       matches: 8,
+  //       goals: 6,
   //       assists: 2,
   //     },
   //     nationalStats: {
@@ -50,8 +50,8 @@ const players = [
     image: Alvarez,
     leagues: {
       LaLiga: {
-        matches: 46,
-        goals: 23,
+        matches: 47,
+        goals: 24,
         assists: 5,
       },
       nationalStats: {
@@ -70,7 +70,7 @@ const players = [
     image: Lautaro,
     leagues: {
       SerieA: {
-        matches: 40,
+        matches: 41,
         goals: 18,
         assists: 3,
       },
@@ -90,9 +90,9 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 36,
+        matches: 37,
         goals: 15,
-        assists: 7,
+        assists: 8,
       },
       nationalStats: {
         ret: "Retired from national team",
@@ -112,7 +112,7 @@ const players = [
   //   image: Garnacho,
   //   leagues: {
   //     United: {
-  //       matches: 46,
+  //       matches: 47,
   //       goals: 9,
   //       assists: 9,
   //     },
