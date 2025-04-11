@@ -15,6 +15,8 @@ import Molina from "../assets/molina.webp";
 import Mac from "../assets/mac.webp";
 import { AiOutlinePlus } from "react-icons/ai";
 
+import Almada from "../assets/almada.avif";
+
 import De from "../assets/de.jpg";
 
 const National = () => {
@@ -91,6 +93,15 @@ const National = () => {
       nationalAppearances: 38,
       nationalGoals: 4,
       nationalAssists: 4,
+    },
+    {
+      image: Almada,
+      name: "Thiago Almada",
+      position: "AM",
+      shirt: 11,
+      nationalAppearances: 8,
+      nationalGoals: 3,
+      nationalAssists: 0,
     },
     {
       image: De,

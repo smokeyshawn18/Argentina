@@ -28,6 +28,8 @@ import Tottenham from "../assets/tot.jpg";
 import Emi from "../assets/emi.jpg";
 import Villa from "../assets/villa.png";
 import Molina from "../assets/molina.jpg";
+import Lyon from "../assets/lyon.png";
+import Alamada from "../assets/almada.avif";
 
 const players = [
   {
@@ -43,8 +45,8 @@ const players = [
       assists: 379,
     },
     seasonStats: {
-      appearances: 8,
-      goals: 6,
+      appearances: 9,
+      goals: 8,
       assists: 2,
     },
   },
@@ -80,8 +82,8 @@ const players = [
       assists: 57,
     },
     seasonStats: {
-      appearances: 47,
-      goals: 21,
+      appearances: 48,
+      goals: 22,
       assists: 4,
     },
   },
@@ -158,7 +160,24 @@ const players = [
       assists: 7,
     },
   },
-
+  {
+    name: "Thiago Almada",
+    position: "AM",
+    shirt: 11,
+    age: 23,
+    image: Alamada,
+    club: Lyon,
+    careerStats: {
+      appearances: 205,
+      goals: 54,
+      assists: 36,
+    },
+    seasonStats: {
+      appearances: 17,
+      goals: 4,
+      assists: 2,
+    },
+  },
   {
     name: "Alexis Mac Allister",
     position: "CM",
@@ -247,7 +266,7 @@ const players = [
       assists: 10,
     },
     seasonStats: {
-      appearances: 49,
+      appearances: 50,
       goals: 9,
       assists: 10,
     },
@@ -284,7 +303,7 @@ const players = [
       assists: 10,
     },
     seasonStats: {
-      appearances: 23,
+      appearances: 24,
       goals: 1,
       assists: 0,
     },
@@ -320,8 +339,8 @@ const players = [
       cleanSheets: 119,
     },
     seasonStats: {
-      appearances: 50,
-      goalsConceded: 60,
+      appearances: 51,
+      goalsConceded: 63,
       cleanSheets: 13,
     },
   },
