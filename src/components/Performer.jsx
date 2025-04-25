@@ -29,7 +29,7 @@ const players = [
   //   image: Messi,
   //   leagues: {
   //     MLS: {
-  //       matches: 11,
+  //       matches: 12,
   //       goals: 8,
   //       assists: 2,
   //     },
@@ -50,8 +50,8 @@ const players = [
     image: Alvarez,
     leagues: {
       LaLiga: {
-        matches: 49,
-        goals: 26,
+        matches: 50,
+        goals: 27,
         assists: 5,
       },
       nationalStats: {
@@ -70,7 +70,7 @@ const players = [
     image: Lautaro,
     leagues: {
       SerieA: {
-        matches: 44,
+        matches: 46,
         goals: 21,
         assists: 3,
       },
@@ -112,7 +112,7 @@ const players = [
   //   image: Garnacho,
   //   leagues: {
   //     United: {
-  //       matches: 50,
+  //       matches: 51,
   //       goals: 10,
   //       assists: 10,
   //     },
