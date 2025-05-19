@@ -29,8 +29,8 @@ const players = [
   //   image: Messi,
   //   leagues: {
   //     MLS: {
-  //       matches: 16,
-  //       goals: 9,
+  //       matches: 17,
+  //       goals: 10,
   //       assists: 2,
   //     },
   //     nationalStats: {
@@ -50,9 +50,9 @@ const players = [
     image: Alvarez,
     leagues: {
       LaLiga: {
-        matches: 52,
-        goals: 27,
-        assists: 5,
+        matches: 53,
+        goals: 29,
+        assists: 6,
       },
       nationalStats: {
         matches: 8,
@@ -90,9 +90,9 @@ const players = [
     image: ADM,
     leagues: {
       Benfica: {
-        matches: 39,
+        matches: 40,
         goals: 15,
-        assists: 8,
+        assists: 9,
       },
       nationalStats: {
         ret: "Retired from national team",
