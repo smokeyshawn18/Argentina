@@ -82,7 +82,7 @@ const players = [
       assists: 65,
     },
     seasonStats: {
-      appearances: 17,
+      appearances: 18,
       goals: 11,
       assists: 2,
     },
@@ -191,9 +191,27 @@ const players = [
       assists: 40,
     },
     seasonStats: {
-      appearances: 14,
+      appearances: 15,
       goals: 3,
       assists: 1,
+    },
+  },
+  {
+    name: "Enzo Fernandez",
+    position: "DM",
+    shirt: 24,
+    age: 23,
+    image: Enzo,
+    club: Chelsea,
+    careerStats: {
+      appearances: 260,
+      goals: 37,
+      assists: 44,
+    },
+    seasonStats: {
+      appearances: 20,
+      goals: 5,
+      assists: 4,
     },
   },
 
@@ -217,21 +235,21 @@ const players = [
   },
 
   {
-    name: "Enzo Fernandez",
-    position: "DM",
-    shirt: 24,
-    age: 23,
-    image: Enzo,
-    club: Chelsea,
+    name: "Alejandro Garnacho",
+    position: "LW",
+    shirt: 17,
+    age: 20,
+    image: Garnacho,
+    club: United,
     careerStats: {
-      appearances: 260,
-      goals: 37,
-      assists: 44,
+      appearances: 152,
+      goals: 26,
+      assists: 21,
     },
     seasonStats: {
-      appearances: 19,
-      goals: 5,
-      assists: 4,
+      appearances: 7,
+      goals: 1,
+      assists: 0,
     },
   },
 
@@ -253,24 +271,7 @@ const players = [
       assists: 1,
     },
   },
-  {
-    name: "Alejandro Garnacho",
-    position: "LW",
-    shirt: 17,
-    age: 20,
-    image: Garnacho,
-    club: United,
-    careerStats: {
-      appearances: 152,
-      goals: 26,
-      assists: 21,
-    },
-    seasonStats: {
-      appearances: 6,
-      goals: 0,
-      assists: 0,
-    },
-  },
+
   {
     name: "Nahuel Molina",
     position: "RB",
